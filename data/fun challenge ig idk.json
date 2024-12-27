@@ -1,0 +1,24 @@
+{
+    "id": 111781084,
+    "name": "fun challenge ig idk",
+    "author": "JuanGPe",
+    "creators": ["JuanGPe"],
+    "verifier": "JuanGPe",
+    "verification": "https://www.youtube.com/watch?v=gslLPFJ_M20",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+       {
+            "user": "DonutEnjoyer",
+            "link": "https://www.youtube.com/watch?v=YH-MP4WSL80",
+            "percent": 100,
+            "hz": 240
+        },
+       {
+            "user": "drakslovesu",
+            "link": "https://www.youtube.com/watch?v=noqdwa17IaA",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
