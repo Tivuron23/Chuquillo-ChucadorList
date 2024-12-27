@@ -1,0 +1,18 @@
+{
+    "id": 109253624,
+    "name": "Wuyim",
+    "author": "CoffeeChips",
+    "creators": ["CoffeeChips"],
+    "verifier": "CoffeeChips",
+    "verification": "https://www.youtube.com/watch?v=TVeBQU9320s",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+       {
+            "user": "JuanGPe",
+            "link": "https://youtu.be/DjyMiXGfAp8",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
