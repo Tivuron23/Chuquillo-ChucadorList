@@ -1,0 +1,18 @@
+{
+    "id": 111771864,
+    "name": "free wave",
+    "author": "kimmerrzz",
+    "creators": ["kimmerrzz"],
+    "verifier": "kimmerrzz",
+    "verification": "https://discord.com/channels/1301267392990810142/1302507407121059892/1302507407121059892",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+       {
+            "user": "GuillExprex52",
+            "link": "https://youtu.be/eQaKvviy0AA",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
