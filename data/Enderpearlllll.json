@@ -1,0 +1,30 @@
+{
+    "id": 110632031,
+    "name": "Enderpearlllll",
+    "author": "LuisESP",
+    "creators": ["LuisESP"],
+    "verifier": "LuisESP",
+    "verification": "https://www.youtube.com/watch?v=536_w8VyjAc",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+       {
+            "user": "JuanGPe",
+            "link": "https://www.youtube.com/watch?v=Iy0hIwA55AM",
+            "percent": 100,
+            "hz": 240
+        }
+       {
+            "user": "DonutEnjoyer",
+            "link": "https://www.youtube.com/watch?v=VB0ZAf1UA7k",
+            "percent": 100,
+            "hz": 240
+        }
+       {
+            "user": "wityuwu",
+            "link": "https://www.youtube.com/watch?v=rI4FXQoO0ZU",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
