@@ -1,0 +1,17 @@
+{
+    "id": 111761712,
+    "name": "aless clicks trials",
+    "author": "AlessM",
+    "creators": ["AlessM"],
+    "verifier": "AlessM",
+    "verification": "https://www.youtube.com/watch?v=2xkkXQoyYRM",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+           {
+            "user": "CoffeeChips",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
