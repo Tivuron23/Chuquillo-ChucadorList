@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+ {
+            "user": "JuanGPe",
+            "link": "https://discord.com/channels/1301267392990810142/1320511524556771421/1320511524556771421",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 } 
