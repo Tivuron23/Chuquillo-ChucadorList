@@ -1,0 +1,24 @@
+{
+    "id": 111744729,
+    "name": "d block",
+    "author": "AlessM",
+    "creators": ["AlessM"],
+    "verifier": "AlessM",
+    "verification": "https://www.youtube.com/watch?v=e4uMIpANRPg",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+       {
+            "user": "wityuwu",
+            "link": "https://youtu.be/Siy8tODx19s",
+            "percent": 100,
+            "hz": 120
+        }
+       {
+            "user": "JuanGPe",
+            "link": "https://youtu.be/ObIFjYqyMBo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
