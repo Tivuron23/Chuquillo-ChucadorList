@@ -1,0 +1,30 @@
+{
+    "id": 109369549,
+    "name": "7 second boulder",
+    "author": "LuisESP",
+    "creators": ["LuisESP"],
+    "verifier": "LuisESP",
+    "verification": "https://www.youtube.com/watch?v=Jwxp9S9rNds",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+       {
+            "user": "JuanGPe",
+            "link": "https://youtu.be/HJlWL9TPIVk",
+            "percent": 100,
+            "hz": 240
+        }
+        {
+            "user": "wityuwu",
+            "link": "https://youtu.be/P2QfPV9UNfY",
+            "percent": 100,
+            "hz": 120
+        }
+       {
+            "user": "XaviiiFG",
+            "link": "https://www.youtube.com/watch?v=sYnSQHliW4U",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
