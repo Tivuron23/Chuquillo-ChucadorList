@@ -1,0 +1,24 @@
+{
+    "id": 107307062,
+    "name": "WEBOS",
+    "author": "Mostaza79",
+    "creators": ["Mostaza79"],
+    "verifier": "Mostaza79",
+    "verification": "https://www.youtube.com/watch?v=GpwIAwgyNME",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+             {
+            "user": "JuanGPe",
+            "link": "https://youtu.be/mQO3MW-8oKE",
+            "percent": 100,
+            "hz": 240
+        },
+           {
+            "user": "wityuwu",
+            "link": "https://youtu.be/wWur0nESgqg",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
