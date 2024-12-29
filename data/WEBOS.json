@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/watch?v=iBBzBjdMMmw&ab_channel=GuilleN.S",
             "percent": 100,
             "hz": 60
+        },
+       {
+            "user": "CoffeeChips",
+            "link": "https://youtu.be/ElpSc59Irl8",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
