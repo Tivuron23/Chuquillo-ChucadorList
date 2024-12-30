@@ -2,6 +2,10 @@
     {
         "role": "owner",
         "name": "Tivu",
-        "link": "https://www.youtube.com/@tiburonconb"
+    },
+    {
+        "role": "helper",
+        "name": "ZureKu",
+        "link": "https://www.youtube.com/@ZureKu"
     }
 ]
