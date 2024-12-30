@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+       {
+            "user": "capsalamii",
+            "link": "https://medal.tv/es/games/geometry-dash/clips/joel2WFgBSibLzAqn?invite=cr-MSxRY2YsMjk5Mzg2NzQ5LA",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
