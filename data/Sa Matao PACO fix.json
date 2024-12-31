@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Copyable",
     "records": [
+       {
+            "user": "MoradiTrapito",
+            "link": "https://youtu.be/rDxg-Z_VzNE",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
