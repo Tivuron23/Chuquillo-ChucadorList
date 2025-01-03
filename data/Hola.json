@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/watch?v=xoTbOpNRkOY",
             "percent": 100,
             "hz": 360
+        },
+       {
+            "user": "David_Carbonell",
+            "link": "https://youtu.be/kcwXYKAiOOI",
+            "percent": 100,
+            "hz": 75
         }
     ]
 }
