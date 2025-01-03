@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Copyable",
     "records": [
+       {
+            "user": "David_Carbonell",
+            "link": "https://youtu.be/ptmg_qrag6Y",
+            "percent": 100,
+            "hz": 75
+        }
     ]
 }
