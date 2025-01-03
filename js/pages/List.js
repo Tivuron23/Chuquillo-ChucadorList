@@ -109,7 +109,10 @@ export default {
                         Clicks que se puedan escuchar con claridad. No se puede editar el audio.
                     </p>
                     <p>
-                        No usar secret ways.
+                        No usar secret ways. No se pueden usar skips exagerados (ejemplo: saltarte la última sección de "Chatarra").
+                    </p>
+                    <p>
+                        Se pueden usar skips cortos o de igual dificultad (ejemplo: el último orbe rojo de "7 second boulder" o saltarte los dos últimos clicks de "d block")
                     </p>
                 </div>
             </div>
