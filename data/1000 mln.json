@@ -3,16 +3,10 @@
     "name": "1000 mln",
     "author": "Fazeflorin6",
     "creators": ["Fazeflorin6"],
-    "verifier": "Fazeflorin6",
-    "verification": "https://discord.com/channels/1301267392990810142/1304509370926895116/1304537699113369611",
+    "verifier": "GuillExprex52",
+    "verification": "https://youtu.be/hnfHy8lxbHw",
     "percentToQualify": "100",
     "password": "Copyable",
     "records": [
-       {
-            "user": "GuillExprex52",
-            "link": "https://youtu.be/hnfHy8lxbHw",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
