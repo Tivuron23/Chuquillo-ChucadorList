@@ -1,0 +1,18 @@
+{
+    "id": 117672151,
+    "name": "Farolillos Maybe Bea",
+    "author": "DonTonteria",
+    "creators": ["DonTonteria"],
+    "verifier": "DonTonteria",
+    "verification": "https://www.youtube.com/watch?v=lEOajWBfD5w",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+       {
+            "user": "Farolillos",
+            "link": "https://discord.com/channels/1301267392990810142/1363992530399793252/1363992530399793252",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
