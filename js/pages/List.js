@@ -122,7 +122,7 @@ export default {
         list: [],
         editors: [],
         loading: true,
-        selected: -1,
+        selected: 0,
         errors: [],
         roleIconMap,
         store
