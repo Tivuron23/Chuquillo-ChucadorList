@@ -13,7 +13,7 @@ export async function fetchList() {
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
-                    const level - 1 = await levelResult.json();
+                    const level = await levelResult.json();
                     return [
                         {
                             ...level,
