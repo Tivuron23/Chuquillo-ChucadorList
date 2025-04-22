@@ -13,10 +13,10 @@ export async function fetchList() {
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
-                    const level = await levelResult.json();
+                    const level - 1 = await levelResult.json();
                     return [
                         {
-                            ...level - 1,
+                            ...level,
                             path,
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
