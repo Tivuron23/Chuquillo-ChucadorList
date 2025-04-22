@@ -10,7 +10,7 @@ export async function fetchList() {
     try {
         const list = await listResult.json();
         return await Promise.all(
-            list.map(async (path, rank) => {
+            list.map(async (path, rank - 1) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
                     const level = await levelResult.json();
@@ -51,7 +51,7 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    list.forEach(([level, err], rank - 1) => {
+    list.forEach(([level, err], rank) => {
         if (err) {
             errs.push(err);
             return;
