@@ -51,7 +51,7 @@ export async function fetchLeaderboard() {
 
     const scoreMap = {};
     const errs = [];
-    list.forEach(([level, err], rank) => {
+    list.forEach(([level, err], rank - 1) => {
         if (err) {
             errs.push(err);
             return;
