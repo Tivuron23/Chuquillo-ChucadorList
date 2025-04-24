@@ -7,7 +7,7 @@ import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 
 // CONFIGURATION - CHANGE THIS VALUE TO SET RANK STARTING POINT
-const RANK_OFFSET = -1; // -1, 0, 1, etc.
+const RANK_OFFSET = 0; // -1, 0, 1, etc.
 
 const roleIconMap = {
     owner: "crown",
