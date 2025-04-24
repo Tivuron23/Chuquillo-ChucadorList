@@ -1,7 +1,9 @@
 import { fetchLeaderboard } from '../content.js';
 import { localize } from '../util.js';
-
 import Spinner from '../components/Spinner.js';
+
+// CONFIGURATION - CHANGE THIS VALUE TO SET RANK STARTING POINT
+const RANK_OFFSET = -1; // -1, 0, 1, etc.
 
 export default {
     components: {
@@ -12,6 +14,7 @@ export default {
         loading: true,
         selected: 0,
         err: [],
+        RANK_OFFSET // Make it available in template
     }),
     template: `
         <main v-if="loading">
@@ -28,7 +31,7 @@ export default {
                     <table class="board">
                         <tr v-for="(ientry, i) in leaderboard">
                             <td class="rank">
-                                <p class="type-label-lg">#{{ i + 1 }}</p>
+                                <p class="type-label-lg">#{{ i + RANK_OFFSET + 1 }}</p>
                             </td>
                             <td class="total">
                                 <p class="type-label-lg">{{ localize(ientry.total) }}</p>
@@ -43,13 +46,13 @@ export default {
                 </div>
                 <div class="player-container">
                     <div class="player">
-                        <h1>#{{ selected + 1 }} {{ entry.user }}</h1>
+                        <h1>#{{ selected + RANK_OFFSET + 1 }} {{ entry.user }}</h1>
                         <h3>{{ entry.total }}</h3>
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>
                         <table class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p>#{{ score.rank + RANK_OFFSET }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -63,7 +66,7 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p>#{{ score.rank + RANK_OFFSET }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -77,7 +80,7 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p>#{{ score.rank + RANK_OFFSET }}</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% {{ score.level }}</a>
@@ -101,7 +104,6 @@ export default {
         const [leaderboard, err] = await fetchLeaderboard();
         this.leaderboard = leaderboard;
         this.err = err;
-        // Hide loading spinner
         this.loading = false;
     },
     methods: {
