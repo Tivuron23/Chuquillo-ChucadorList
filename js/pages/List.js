@@ -6,6 +6,9 @@ import { fetchEditors, fetchList } from "../content.js";
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 
+// CONFIGURATION - CHANGE THIS VALUE TO SET RANK STARTING POINT
+const RANK_OFFSET = -1; // -1, 0, 1, etc.
+
 const roleIconMap = {
     owner: "crown",
     admin: "user-gear",
@@ -25,7 +28,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i <= 150" class="type-label-lg">#{{ i }}</p>
+                            <p v-if="i + RANK_OFFSET <= 150" class="type-label-lg">#{{ i + RANK_OFFSET }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -56,8 +59,8 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected <= 150"><strong>100%</strong> or better to qualify</p>
+                    <p v-if="selected + RANK_OFFSET <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else-if="selected + RANK_OFFSET <= 150"><strong>100%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -125,7 +128,8 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
+        RANK_OFFSET // Make it available in template
     }),
     computed: {
         level() {
@@ -135,7 +139,6 @@ export default {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
             }
-
             return embed(
                 this.toggledShowcase
                     ? this.level.showcase
@@ -144,11 +147,9 @@ export default {
         },
     },
     async mounted() {
-        // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
 
-        // Error handling
         if (!this.list) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
