@@ -1,0 +1,18 @@
+{
+    "id": 117855022,
+    "name": "juan loves ship old",
+    "author": "Coffeechips",
+    "creators": ["xemmmmm"],
+    "verifier": "xemmmmm",
+    "verification": "https://youtu.be/ZnOlbpSSdv0",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+               {
+            "user": "Coffeechips",
+            "link": "https://youtu.be/6ge0achCVb0",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
