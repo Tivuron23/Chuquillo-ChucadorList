@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Copyable",
     "records": [
+               {
+            "user": "wityuwu",
+            "link": "https://youtu.be/5CoFQlJF4fE",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
