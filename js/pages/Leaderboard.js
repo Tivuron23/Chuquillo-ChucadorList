@@ -3,7 +3,7 @@ import { localize } from '../util.js';
 import Spinner from '../components/Spinner.js';
 
 // CONFIGURATION - CHANGE THIS VALUE TO SET RANK STARTING POINT
-const RANK_OFFSET = 0; // -1, 0, 1, etc.
+const RANK_OFFSET = -1; // -1, 0, 1, etc.
 
 export default {
     components: {
