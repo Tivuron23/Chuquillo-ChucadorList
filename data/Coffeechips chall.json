@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=ZB47INKbO9w",
             "percent": 100,
             "hz": 75
+        },
+               {
+            "user": "PlayerMartoGD",
+            "link": "https://youtu.be/YVitwFDdh9o?si=Yg4GEXQcBHWReNrz",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
