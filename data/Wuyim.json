@@ -1,5 +1,3 @@
-{
-    "id": 109253624,
     "name": "Wuyim",
     "author": "CoffeeChips",
     "creators": ["CoffeeChips, silok777"],
@@ -29,6 +27,12 @@
                {
             "user": "GuillExprex52",
             "link": "https://www.youtube.com/watch?v=jhieeeCNu48&ab_channel=GuilleN.S",
+            "percent": 100,
+            "hz": 240
+        },
+               {
+            "user": "PlayerMartoGD",
+            "link": "https://youtu.be/zeHm-x-h-pI",
             "percent": 100,
             "hz": 240
         }
