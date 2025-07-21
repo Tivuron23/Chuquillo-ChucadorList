@@ -1,0 +1,18 @@
+{
+    "id": 112483980,
+    "name": "Conco Fortress",
+    "author": "caloyt",
+    "creators": ["caloyt"],
+    "verifier": "caloyt",
+    "verification": "https://youtu.be/Qo_HFp_bARA",
+    "percentToQualify": "100",
+    "password": "Copyable",
+    "records": [
+             {
+            "user": "TiburonConB",
+            "link": "https://youtu.be/4lJ0uPz42Mg?si=Rofx_C2JPwFXbBW5",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
